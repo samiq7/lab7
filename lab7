@@ -1,0 +1,13 @@
+public class CustomException extends Exception {
+    // Optional: Add any additional fields or methods specific to your exception
+
+    // Constructor
+    public CustomException() {
+        super();  // Call the superclass constructor
+    }
+
+    // Constructor with a custom error message
+    public CustomException(String message) {
+        super(message);  // Call the superclass constructor with the provided message
+    }
+}
