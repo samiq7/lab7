@@ -1,0 +1,11 @@
+public class Example {
+    public static void main(String[] args) {
+        try {
+            // Some code that may throw your custom exception
+            throw new CustomException("This is a custom exception");
+        } catch (CustomException e) {
+            // Handle the exception
+            System.out.println("Caught custom exception: " + e.getMessage());
+        }
+    }
+}
